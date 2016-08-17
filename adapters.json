@@ -1,0 +1,15 @@
+[
+    "appnexus",
+    "aol",
+    {
+      "appnexus": {
+        "alias": "brealtime"
+      }
+    },
+    {
+      "appnexus": {
+        "alias": "defymedia"
+      }
+    }
+
+]

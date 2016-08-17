@@ -1,0 +1,69 @@
+<html>
+<head>
+<script type="text/javascript">
+  var __dfn={pId:4384,pgns:0,sA:!!0,cats:[],adz:[],ct:'',sek:!!0,hf:!!0,fbjs:!0,stcUrl:"http://static.diffen.com",uli:!0,adzEn:!0},
+          google_analytics_domain_name="diffen.com",_dfn_wgServer = "http://www.diffen.com",dfnifrms=[],_dfnMoreJS=[],_dfnReadyHook=[],_dfn404=false,isMobile=false,socShare = true,dfnpopin = true;
+  document.domain = "diffen.com";__dfn.cats.push('Entertainment');__dfn.cats.push('Video Streaming');  if(!document.cookie.match(/(^|;\s?)dfnCt=/)){
+      new Image().src = __dfn.stcUrl+"/gc3.php";
+  }
+  var fjs = document.getElementsByTagName('script')[0];
+  function aSync(src,id){
+    var s = document.createElement('script'); s.type = "text/javascript"; s.async = true; s.src = src; 
+    if("undefined" !== typeof id) { if(document.getElementById(id)) return; s.id = id; }
+    fjs.parentNode.insertBefore(s,fjs);
+  }
+  var dfnraf = ('function'===typeof requestAnimationFrame)?requestAnimationFrame:function(cb) { return window.setTimeout(cb, 1000 / 60); };  
+  </script>
+  <script type="text/javascript">
+  //amazon code
+  var dfp_trig = function() {
+    amazonComplete = true;
+    initDfp();
+  };
+</script>
+<script type='text/javascript'>
+  var dfpLoaded = false;
+  var amznads = amznads || {};
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  amznads.asyncParams = {
+    'id': '3430',
+    'callbackFn': function() {
+      try {
+        amznads.setTargetingForGPTAsync('amznslots');
+      } catch (e) { /*ignore*/ }
+      /* Continue your DFP call here (optional) */
+      dfp_trig();
+    },
+    'timeout': 750
+  };
+  aSync("//c.amazon-adsystem.com/aax2/amzn_ads.js");
+  function initDfp() {
+    if(dfpLoaded) {
+      return;
+    }
+    dfpLoaded = true;
+    aSync("//www.googletagservices.com/tag/js/gpt.js");   
+    googletag.cmd.push(function() {
+      //300x250 ad slot.
+      window.adSlot3x2 = googletag.defineSlot('/3630741/Diffen_Desktop_300x250//160x600_D', [[300, 250], [160, 600]],   'div-gpt-ad-1471239017413-0');
+      window.adSlot3x2.addService(googletag.pubads());
+      
+      //728x90 ad slot.
+      window.adSlot7x9 = googletag.defineSlot('/3630741/Diffen_Desktop_728x90_ATF', [728, 90], 'div-gpt-ad-1471243707814-0');
+      window.adSlot7x9.addService(googletag.pubads());
+
+          googletag.enableServices();
+      });
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1471239017413-0'); });
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1471243707814-0'); });
+  } 
+</script>
+</head>
+<body >
+  <div id='div-gpt-ad-1471239017413-0'>
+  </div>
+  <div id='div-gpt-ad-1471243707814-0'>
+  </div>
+</body>
+</html>
